@@ -1,0 +1,51 @@
+[
+    {
+    "description":"In a forest  ",
+    "background":"forest.jpg",
+    "dialogue1": "",
+    "character1":"",    
+    "dialogue2":"'Oh I feel hungry I think I must have something.'",
+    "character2":"crow.png"
+    },
+    {
+    "description":"At that time the crow saw a grandma with Cookie",
+    "background":"forest.jpg",
+    "dialogue1": "",
+    "character1":"grandma.png",    
+    "dialogue2":"'Ahh,Those Cookies seem delicious'",
+    "character2":"crow.png"
+    },
+    {
+    "description":"The crow stool one Cookie from the grandma",
+    "background":"forest.jpg",
+    "dialogue1": "",
+    "character1":"crow.png",    
+    "dialogue2":"'Hey crow, you stop there.'",
+    "character2":"grandma.png"
+    },
+    {
+    "description":"The crow stool one Cookie from the grandma and settled to eat it",
+    "background":"forest.jpg",
+    "dialogue1": "",
+    "character1":"",    
+    "dialogue2":"",
+    "character2":"crow.png"
+    },
+    {
+        "description":"A fox came by that way noted the crow",
+        "background":"forest.jpg",
+        "dialogue1": "'Hey, crow, How beautiful you are! Your feathers are really shiny.Surely your voice must also very sweet. Please sing a song for me!! '",
+        "character1":"fox.png",    
+        "dialogue2":"'mmmmmmmmmm'",
+        "character2":"crow.png"
+    },
+    {
+        "description":"The crow opened its mouth to sing and the fox took it and ran away",
+        "background":"forest.jpg",
+        "dialogue1": "",
+        "character1":"",    
+        "dialogue2":"'lalalalal'",
+        "character2":"crow.png"
+    }
+    
+]

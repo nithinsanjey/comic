@@ -1,0 +1,100 @@
+body{
+    font-family: Adobe Garamond Pro,serif;
+    font-weight: 100;
+    font-size: 28px;
+    background-color: rgba(200,200,200,0.2);
+    background-image: url('pattern.jpg');
+    background-size: 14px;
+}
+button{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0);
+    font-size: 20px;
+    font-family: Adobe Garamond Pro,serif;
+    padding: 6px 20px 6px 20px;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+button:hover{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(200,200,200,1);
+    color: white;
+    font-size: 20px;
+    font-family: Adobe Garamond Pro,serif;
+    padding: 6px 20px 6px 20px;
+    border: 0px solid white;
+}
+.main{
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid graytext;
+    border-right: 2px solid graytext;
+    height:600px;
+    
+}
+.place2{
+                
+    height: 100%;
+    margin-right: 100px;
+    width: 20%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    color: white;
+    float: right;
+    font-size: 20px;
+    background-size: contain;
+    font-weight: 100;
+}
+.separator{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(200,200,200,0);
+    clear: both;
+}
+.place1{
+    background-size: contain;
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-weight: 100;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    color: white;
+    font-size: 20px;
+}
+.message1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+#header{
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#moral{
+    opacity: 0;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
