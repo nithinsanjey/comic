@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
    $("#press").click(function(){
         //$.getJSON("content.json",function(json){
         $.getJSON("content.json",function(json){
@@ -26,7 +27,7 @@ $(document).ready(function(){
                         
                 });
                 $("#moral").animate({opacity:1});
-                        
+                $("#press").attr("disabled","true");                     
         });    
         }); // press click function ends
         var s=$(".main");
