@@ -38,6 +38,7 @@ button:hover{
     margin-right: auto;
     border-left: 2px solid graytext;
     border-right: 2px solid graytext;
+    font-size: 18px;
     height:600px;
     
 }
@@ -64,6 +65,7 @@ button:hover{
     clear: both;
 }
 .place1{
+    -webkit-transform:scaleX(-1);
     background-size: contain;
     float: left;
     margin-left: 100px;
@@ -77,10 +79,11 @@ button:hover{
     color: white;
     font-size: 20px;
 }
-.message1{
+.message{
     color: white;
     padding: 10px;
     text-align: center;
+    -webkit-transform:scaleX(-1);
     
 }
 #header{

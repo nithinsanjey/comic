@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var images=["barber","brahmin","guard","king","tenali","barbers","brahmins","guards","kings"];
+    var images=["barber","brahmin","guard","king","tenali"];
     var character=[];
     var mapCharacter=[];
     $.getJSON("StoryChar.json",function(json){
@@ -10,12 +10,12 @@ $(document).ready(function(){
             for(var i=0;i<subs.length;i++){
 
                 subs[i]=subs[i].toLowerCase();
-                console.log("subs thing "+subs[i]);
+                //console.log("subs thing "+subs[i]);
             }
             for(var i=0;i<subs.length;i++){
                 for(var j=0;j<images.length;j++){
                     console.log(subs[i]==images[j]+" "+subs[i]+" == "+images[j]);
-                    if( subs[i]==images[j] ){
+                    if( (subs[i]==images[j]) || (subs[i]==images[j]+"s") ){
                         mapCharacter[(mapCharacter.length-1)]=(images[j]+".png");
                         break;
                     }
@@ -39,6 +39,7 @@ $(document).ready(function(){
             var bg="";
             var ch1="";
             var ch2="";
+            var frame=1;
 		$.each(json,function(){
                     var dia1="";
                     var dia2="";
@@ -51,7 +52,7 @@ $(document).ready(function(){
                         dia1=this['dialogue'][0];
                         dia2=this['dialogue'][1];
                     }
-                    alert("hello");
+                    //alert("hello");
                     var char1="";
                     var char2="";
                     if(this['character'].length==1){
@@ -73,8 +74,8 @@ $(document).ready(function(){
                     }
                     var content='<div id="main" class="main" style="background-image:url(images/forest.jpg)">';
                         //alert("Niythhin");
-			content=content+'<div id="place1" class="place1" style="background-image:url(images/'+char1+')">'+this['discription']+
-                                '<div id="message1" class="message"><br>'
+			content=content+'<div id="place1" class="place1" style="background-image:url(images/'+char1+')"><div class="message">Frame '+frame+'<br>'+this['discription']+
+                                '</div><div id="message1" class="message"><br>'
                                 +dia1+
                                 '</div></div>'+
                                 '<div id="place2" class="place2" style="background-image:url(images/'+char2+')" >'+
@@ -87,7 +88,7 @@ $(document).ready(function(){
                         //$(".place1").css({"background-image": "url('images/"+ch1+"')"});
                         //$(".place2").css({"background-image": "url('images/"+ch2+"')", "background-size":"contain"});
                         //$(".main").css({"background-image": "url('images/"+bg+"')"});
-                        
+                        frame=frame+1;
                 });
                 $("#moral").animate({opacity:1});
                 $("#press").attr("disabled","true");                     
