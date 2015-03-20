@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var images=["barber","brahmin","guard","king","tenali"];
+    var images=["barber","brahmin","guard","king","tenali","dog"];
     var character=[];
     var mapCharacter=[];
     $.getJSON("StoryChar.json",function(json){
