@@ -1,161 +1,31 @@
 [
-{
-	"character":["King Rayalu : MALE"],
-	"discription":"One morning, King Rayalu woke up early.",
-	"dialogue":[]},
-{
-	"character":["King Rayalu : MALE","guards : UNKNOWN"],
-	"discription":"He sleepily walked out of his room and called out to the guards.",
-	"dialogue":[]},
-{
-	"character":["guard : MALE","King : MALE","barber whom had summoned : MALE"],
-	"discription":"When a guard appeared, the King ordered him to fetch the barber immediately.",
-	"dialogue":[]},
-{
-	"character":["guard : MALE","King : MALE"],
-	"discription":"The guard left to carry out his orders and the King returned to his room.",
-	"dialogue":[]},
-{
-	"character":["guard : MALE"],
-	"discription":"He sat down comfortably in an easy chair and in no time he was in deep sleep again.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber whom had summoned : MALE"],
-	"discription":"When the barber came to the King\u2019s room, he found the King sleeping in the chair.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber whom had summoned : MALE"],
-	"discription":"He did not want to wake the King up.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber whom had summoned : MALE"],
-	"discription":"So, very quietly and expertly, he trimmed the King\u2019s hair and shaved his beard.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber whom had summoned : MALE"],
-	"discription":"The King was still sleeping soundly when the barber completed his job and left.",
-	"dialogue":[]},
-{
-	"character":["King : MALE"],
-	"discription":"A little while later, the King woke up.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber whom had summoned : MALE"],
-	"discription":"As he did not see the barber whom he had summoned, he got angry.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber whom had summoned : MALE","attendant : MALE"],
-	"discription":"He shouted for his attendant and told him to bring the barber to him that very instant.",
-	"dialogue":[]},
-{
-	"character":["attendant : MALE"],
-	"discription":"The attendant rushed off to carry out his order.",
-	"dialogue":[]},
-{
-	"character":["King : MALE"],
-	"discription":"Just then, the King happened to put his hand on his chin.",
-	"dialogue":[]},
-{
-	"character":["King : MALE"],
-	"discription":"To his surprise, his chin felt smooth and shaved.",
-	"dialogue":[]},
-{
-	"character":["King : MALE"],
-	"discription":"So, the King went to take a look at himself in the mirror.",
-	"dialogue":[]},
-{
-	"character":["King : MALE"],
-	"discription":"He saw that his hair had been trimmed neatly and his beard was properly shaved.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber whom had summoned : MALE"],
-	"discription":"The King was impressed with the barber\u2019s work.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","attendant : MALE","barber , : MALE"],
-	"discription":null,
-	"dialogue":["1: \u201CYou have done good work today.I am impressed with you.Ask for a boon and I shall grant it.\u201D"]},
-{
-	"character":["barber , : MALE","this : NEUTRAL"],
-	"discription":"The barber was very happy to hear this.",
-	"dialogue":[]},
-{
-	"character":["barber , : MALE"],
-	"discription":null,
-	"dialogue":["1: \u201CYour Majesty, you have been so kind that my family and I have no dearth of anything.But, since long I have had just one wish\u2014that is to become a Brahmin if Your Highness can bestow this boon upon me.\u201D"]},
-{
-	"character":["King : MALE","barber , : MALE"],
-	"discription":null,
-	"dialogue":["1: \u201CIf that is what you desire, it shall be fulfilled tomorrow.\u201D"]},
-{
-	"character":["King : MALE","barber , : MALE"],
-	"discription":"The barber was overjoyed and he left the room, praising the King.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber , : MALE","Brahmins : UNKNOWN","Brahmin : UNKNOWN"],
-	"discription":null,
-	"dialogue":["1: \u201CI have promised to transform the barber to a Brahmin. You have to make sure that you carry out the transformation with all your knowledge.I will reward all of you suitably.\u201D"]},
-{
-	"character":["other Brahmins : UNKNOWN"],
-	"discription":"This news spread around the town and became a cause of great concern for the other Brahmins.",
-	"dialogue":[]},
-{
-	"character":["other Brahmins : UNKNOWN"],
-	"discription":null,
-	"dialogue":["1: \u201CWhat the King is doing is not fair.It is something that goes against dharma.You cannot just transform somebody into a Brahmin. This will result in more and more people wanting to become a Brahmin.\u201D"]},
-{
-	"character":["other Brahmins : UNKNOWN"],
-	"discription":"But none of them had the courage to voice their objections openly for fear of being punished.",
-	"dialogue":[]},
-{
-	"character":["other Brahmins : UNKNOWN","Tenali Raman : MALE"],
-	"discription":"So, they decided to go to Tenali Raman to seek a solution.",
-	"dialogue":[]},
-{
-	"character":["Brahmins : UNKNOWN","Tenali : UNKNOWN"],
-	"discription":"Tenali listened to the whole story and assured the Brahmins that he would do his best to stop this activity.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber , : MALE","Brahmins : UNKNOWN"],
-	"discription":"The next morning, the Brahmins who were ordered by the King to change the barber\u2019s caste, took the barber to the holy river and began the procedure of the transformation by chanting hymns and mantras.",
-	"dialogue":[]},
-{
-	"character":["King : MALE"],
-	"discription":"The King was also sitting at a distance and supervising the proceedings.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","black dog : UNKNOWN","Tenali : UNKNOWN"],
-	"discription":"Suddenly, the King saw that at some distance, Tenali was standing beside a black dog.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","black dog : UNKNOWN","Tenali : UNKNOWN"],
-	"discription":"Out of curiosity, the King walked up to Tenali and asked him what he was doing with the dog.",
-	"dialogue":[]},
-{
-	"character":["black dog : UNKNOWN","Tenali : UNKNOWN"],
-	"discription":"Tenali replied that he was trying to transform the black dog into a white cow.",
-	"dialogue":[]},
-{
-	"character":["King : MALE"],
-	"discription":null,
-	"dialogue":["1: \u201COh Tenali. You are such a fool! How can a dog turn into a cow by giving it a dip in holy water and chanting hymns around him?\u201D"]},
-{
-	"character":["Tenali : UNKNOWN"],
-	"discription":null,
-	"dialogue":["1: \u201CMy Lord, forgive me for being foolish. But tell me, if that barber can be transformed into a Brahmin, why can\u2019t this black dog change to a white cow?\u201D"]},
-{
-	"character":["King : MALE","Tenali : UNKNOWN"],
-	"discription":"On hearing Tenali\u2019s words, the King realized his mistake.",
-	"dialogue":[]},
-{
-	"character":["barber , : MALE","Brahmin : UNKNOWN","Tenali : UNKNOWN"],
-	"discription":"He called the barber and told him that it was not possible to transform him into a Brahmin so he should ask for another wish.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","barber , : MALE"],
-	"discription":"The barber replied respectfully that because of the King\u2019s kindness he had plenty of everything and did not need anything.",
-	"dialogue":[]},
-{
-	"character":["King : MALE","Tenali : UNKNOWN"],
-	"discription":"The King appreciated Tenali\u2019s intelligence and rewarded him for opening his eyes and stopping him from doing things against dharma.",
-	"dialogue":[]}]
+{"character":["Tenali Raman : MALE"],"discription":"Tenali Raman was a minister in the court of Krishnadevaraya, the ruler of Vijayanar.","dialogue":[]},
+{"character":["Tenali Raman : MALE"],"discription":"He was an extremely versatile personality.","dialogue":[]},
+{"character":["Tenali Raman : MALE"],"discription":"The entire kingdom always buzzed with the news of his stories and practical jokes.","dialogue":[]},
+{"character":["Tenali Raman : MALE"],"discription":"He was very famous and stories of his wisdom spread beyond Vijaynagar, in cities which are a part of Karnataka and Tamil Nadu now.","dialogue":[]},
+{"character":["Tenali Raman : MALE"],"discription":"A great scholar by profession, Tenali Raman also knew several languages.","dialogue":[]},
+{"character":["man called Ramaya town of Vijayanagar : MALE"],"discription":"There once lived a man called Ramaya in the town of Vijayanagar.","dialogue":[]},
+{"character":[],"discription":"It was believed that whoever saw the face of Ramaya the first thing in the morning, would not be able to eat anything throughout the day.","dialogue":[]},
+{"character":[],"discription":"So, all the people of Vijaynagar avoided Ramaya all the time.","dialogue":[]},
+{"character":["king : MALE"],"discription":"The news also reached the king\u2019s ears.","dialogue":[]},
+{"character":["king : MALE"],"discription":"He wanted to find out the truth for himself and called for Ramaya at once.","dialogue":[]},
+{"character":["king : MALE"],"discription":"He made Ramaya stay at a room adjacent to his bed chamber for one night.","dialogue":[]},
+{"character":["king : MALE"],"discription":"The next day, when the king woke up, he went and saw Ramaya\u2019s face the first thing the morning.","dialogue":[]},
+{"character":["king : MALE"],"discription":"Later in the afternoon, the king sat to have his lunch.","dialogue":[]},
+{"character":["king : MALE"],"discription":"He was served with freshly cooked hot food.","dialogue":[]},
+{"character":["king : MALE"],"discription":"As he was about to take his first bite, he noticed that there was a fly in his food.","dialogue":[]},
+{"character":["king : MALE"],"discription":"He threw away the platter and ordered for fresh food.","dialogue":[]},
+{"character":["king : MALE"],"discription":"But by the time the food was cooked for the second time, he was not hungry any more.","dialogue":[]},
+{"character":["king : MALE","people : UNKNOWN"],"discription":"Thus, the king realized that whatever the people said were true, Ramaya was indeed jinxed.","dialogue":[]},
+{"character":["king : MALE","soldiers : UNKNOWN"],"discription":"So he ordered his soldiers to hang him immediately.","dialogue":[]},
+{"character":["king : MALE","soldiers : UNKNOWN"],"discription":"The soldiers did not want to hang him, but they could not go against the king\u2019s words.","dialogue":[]},
+{"character":["soldiers : UNKNOWN","Ramaya towards gallows when they met Tenali Raman on way : MALE"],"discription":"They were taking Ramaya towards the gallows, when they met Tenali Raman on the way.","dialogue":[]},
+{"character":["soldiers : UNKNOWN","Tenali : UNKNOWN"],"discription":"Tenali whispered something in Ramaya\u2019s ear and then Ramaya was whisked away by the soldiers.","dialogue":[]},
+{"character":["king : MALE","soldiers : UNKNOWN","Tenali : UNKNOWN","Ramaya about last wish : MALE"],"discription":"Later, when the soldiers asked Ramaya about his last wish, he said that he wanted to send across a message to the king.","dialogue":[]},
+{"character":["king : MALE","soldiers : UNKNOWN","Ramaya about last wish : MALE"],"discription":"He requested them not to hang him until he received the response of the king.","dialogue":[]},
+{"character":["soldiers : UNKNOWN","Ramaya about last wish : MALE"],"discription":null,"dialogue":["1: \u201CGo and tell the king that if it is true that anyone who sees my face in the morning loses his appetite for the day, then anyone who sees the king\u2019s face in the morning is destined to lose his life that day. Tell him that if I am jinxed then so is he, and in fact more than me.\u201D"]},
+{"character":["king : MALE"],"discription":"The king was speechless when he heard Ramaya\u2019s message.","dialogue":[]},
+{"character":["king : MALE"],"discription":"He ordered the execution to be stopped immediately.","dialogue":[]},
+{"character":["king : MALE"],"discription":"He was ashamed of his ignorance.","dialogue":[]},
+{"character":["anyone town : MALE","king : MALE"],"discription":"At once he called Ramaya and offered him a lot of gifts and also requested him to not disclose this incident to anyone in the town.","dialogue":[]},
+{"character":["people of Vijaynagar : UNKNOWN","man who was jinxed : MALE"],"discription":"After all, the people of Vijaynagar would not like to be ruled by a man who was jinxed.","dialogue":[]}]
