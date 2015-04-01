@@ -98,7 +98,7 @@ $(document).ready(function(){
                         console.log(character);
                         //console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
-                    char1=
+                    
                     var content='<div id="main" class="main" style="background-image:url(images/forest.jpg)">';
                         //alert("Niythhin");
 			content=content+'<div id="place1" class="place1" style="background-image:url(images/'+char1+')"><div class="message">Frame '+frame+'<br>'+this['discription']+
