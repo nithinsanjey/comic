@@ -68,6 +68,7 @@ $(document).ready(function(){
 
                         var index=parseInt(character.indexOf('"'+this['character'][0]+'"'));
                         char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
+                        char1=this['character'][0];
                         console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
                     if(this['character'].length==2){
@@ -77,6 +78,8 @@ $(document).ready(function(){
                         var index2=parseInt(character.indexOf('"'+this['character'][1]+'"'));
                         char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
                         char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
+                        char1=this['character'][0];
+                        char2=this['character'][1];
                         console.log(character);
                         console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
@@ -89,9 +92,13 @@ $(document).ready(function(){
                         char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
                         char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
                         char3=mapCharacter[character.indexOf('"'+this['character'][2]+'"')];
+                        char1=this['character'][0];
+                        char2=this['character'][1];
+                        char3=this['character'][2];
                         console.log(character);
                         //console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
+                    char1=
                     var content='<div id="main" class="main" style="background-image:url(images/forest.jpg)">';
                         //alert("Niythhin");
 			content=content+'<div id="place1" class="place1" style="background-image:url(images/'+char1+')"><div class="message">Frame '+frame+'<br>'+this['discription']+
