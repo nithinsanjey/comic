@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    //str = str.replace(/\s+/g, '');
+    //  JAVA    st.replaceAll("\\s","")
     //var images=["barber","brahmin","guard","king","tenali","dog"];
     var character=[];
     //var mapCharacter=[];
@@ -95,6 +97,7 @@ $(document).ready(function(){
                         char1=this['character'][0]+".png";
                         char2=this['character'][1]+".png";
                         char3=this['character'][2]+".png";
+
                         console.log(char1);
                         //console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
