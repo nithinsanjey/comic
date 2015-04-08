@@ -128,21 +128,21 @@ public class Nithin {
                 String[] segment=mychar.split(" ");
             for (String segment1 : segment) {
                 if ("king".equals(segment1)) {
-                    genImage("male","standing","default","crown","default",mychar,mychar.replaceAll("\\s",""));
+                    genImage("male","standing","default","crown","default",((mychar.replaceAll("\\s","")).split(":"))[0],mychar);
                     break;
                 }else if ("queen".equals(segment1)) {
-                    genImage("female","standing","default","crown","default",mychar,mychar.replaceAll("\\s",""));
+                    genImage("female","standing","default","crown","default",((mychar.replaceAll("\\s","")).split(":"))[0],mychar);
                     break;
                 } 
                 else if ("MALE".equals(segment1)) {
-                    genImage("male","standing","default","default","default",mychar,mychar.replaceAll("\\s",""));
+                    genImage("male","standing","default","default","default",((mychar.replaceAll("\\s","")).split(":"))[0],mychar);
                     break;
                 } else if ("FEMALE".equals(segment1)) {
-                    genImage("female","standing","default","default","default",mychar,mychar.replaceAll("\\s",""));
+                    genImage("female","standing","default","default","default",((mychar.replaceAll("\\s","")).split(":"))[0],mychar);
                     break;
                     
                 } else if ("UNKNOWN".equals(segment1)) {
-                    genImage("male","standing","default","default","default",mychar,mychar.replaceAll("\\s",""));
+                    genImage("male","standing","default","default","default",((mychar.replaceAll("\\s","")).split(":"))[0],mychar);
                     break;
                 
                 }
