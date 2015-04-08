@@ -105,7 +105,7 @@ $(document).ready(function(){
                     
                     var content='<div id="main" class="main" style="background-image:url(images/forest.jpg)">';
                         //alert("Niythhin");
-			content=content+'<div id="place1" class="place1" style="background-image:url(images/'+char1+')"><div class="message">Frame '+frame+'<br>'+this['discription']+
+			content=content+'<div id="place1" class="place1" style="background-image:url(images/'+char1+')"><div class="message">'+""+'<br>'+this['discription']+
                                 '</div><div id="message1" class="message"><br>'
                                 +dia1+
                                 '</div></div>'+
