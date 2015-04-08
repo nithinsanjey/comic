@@ -82,7 +82,7 @@ button:hover{
     clear: both;
 }
 .place1{
-    -webkit-transform:scaleX(-1);
+    
     background-size: contain;
     float: left;
     margin-left: 100px;
@@ -100,7 +100,7 @@ button:hover{
     color: black;
     padding: 10px;
     text-align: center;
-    -webkit-transform:scaleX(-1);
+    
     
 }
 #header{
