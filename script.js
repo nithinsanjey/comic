@@ -81,7 +81,7 @@ $(document).ready(function(){
                         char1=this['character'][0]+".png";
                         char2=this['character'][1]+".png";
                         console.log(character);
-                        console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
+                        console.log("corres image "+(this['character'][0]));
                     }
                     if(this['character'].length==3){
                         console.log("Name of character "+character.indexOf('"'+this['character'][0]+'"'));
