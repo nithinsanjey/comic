@@ -42,12 +42,12 @@ public class Nithin {
             characterName=CharacterName;
             resultName=ResultName;
             String link;
-            link="/home/kavin/Documents/Export/poses/male";
+            link="/home/kavin/Documents/git/story material/poses/male";
             if(gender.toLowerCase()=="male"){
-                link="/home/kavin/Documents/Export/poses/male";
+                link="/home/kavin/Documents/git/story material/poses/male";
             }
             else if(gender.toLowerCase()=="female"){
-                link="/home/kavin/Documents/Export/poses/female";
+                link="/home/kavin/Documents/git/story material/poses/female";
             }   //fetching image files
             File[] imgFiles = new File[chunks];
             //for (int i = 0; i < chunks; i++) {
@@ -55,9 +55,9 @@ public class Nithin {
             System.out.println(imgFiles[0].exists());
             imgFiles[1] = new File(link+"/face/"+face+".png");
             System.out.println(imgFiles[1].exists());
-            imgFiles[2] = new File("/home/kavin/Documents/Export/poses/head/"+head+".png");
+            imgFiles[2] = new File("/home/kavin/Documents/git/story material/poses/head/"+head+".png");
             System.out.println(imgFiles[2].exists());
-            imgFiles[3] = new File("/home/kavin/Documents/Export/poses/possesion/"+possesion+".png");
+            imgFiles[3] = new File("/home/kavin/Documents/git/story material/poses/possesion/"+possesion+".png");
             System.out.println(imgFiles[3].exists());
             //}   /home/kavin/Documents/Export/poses/body/
 // C:/Users/prem/Desktop
@@ -103,7 +103,7 @@ public class Nithin {
 		BufferedReader br = null;
 		try {
 			String line;
-			br = new BufferedReader(new FileReader("/home/kavin/Documents/Export/nithin/src/nithin/StoryChar.json"));
+			br = new BufferedReader(new FileReader("/home/kavin/Documents/git/comic/StoryChar.json"));
 			while ((line = br.readLine()) != null) {
 				jsonData += line + "\n";
 			}
@@ -128,21 +128,21 @@ public class Nithin {
                 String[] segment=mychar.split(" ");
             for (String segment1 : segment) {
                 if ("king".equals(segment1)) {
-                    genImage("male","standing","default","crown","default",mychar,mychar);
+                    genImage("male","standing","default","crown","default",mychar,mychar.replaceAll("\\s",""));
                     break;
                 }else if ("queen".equals(segment1)) {
-                    genImage("female","standing","default","crown","default",mychar,mychar);
+                    genImage("female","standing","default","crown","default",mychar,mychar.replaceAll("\\s",""));
                     break;
                 } 
                 else if ("MALE".equals(segment1)) {
-                    genImage("male","standing","default","default","default",mychar,mychar);
+                    genImage("male","standing","default","default","default",mychar,mychar.replaceAll("\\s",""));
                     break;
                 } else if ("FEMALE".equals(segment1)) {
-                    genImage("female","standing","default","default","default",mychar,mychar);
+                    genImage("female","standing","default","default","default",mychar,mychar.replaceAll("\\s",""));
                     break;
                     
                 } else if ("UNKNOWN".equals(segment1)) {
-                    genImage("male","standing","default","default","default",mychar,mychar);
+                    genImage("male","standing","default","default","default",mychar,mychar.replaceAll("\\s",""));
                     break;
                 
                 }
