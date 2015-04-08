@@ -68,7 +68,7 @@ $(document).ready(function(){
 
                         var index=parseInt(character.indexOf('"'+this['character'][0]+'"'));
                         char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
-                        char1=this['character'][0];
+                        char1=this['character'][0]+".png";
                         console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
                     if(this['character'].length==2){
@@ -78,8 +78,8 @@ $(document).ready(function(){
                         var index2=parseInt(character.indexOf('"'+this['character'][1]+'"'));
                         char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
                         char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
-                        char1=this['character'][0];
-                        char2=this['character'][1];
+                        char1=this['character'][0]+".png";
+                        char2=this['character'][1]+".png";
                         console.log(character);
                         console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
@@ -92,9 +92,9 @@ $(document).ready(function(){
                         char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
                         char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
                         char3=mapCharacter[character.indexOf('"'+this['character'][2]+'"')];
-                        char1=this['character'][0];
-                        char2=this['character'][1];
-                        char3=this['character'][2];
+                        char1=this['character'][0]+".png";
+                        char2=this['character'][1]+".png";
+                        char3=this['character'][2]+".png";
                         console.log(character);
                         //console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
