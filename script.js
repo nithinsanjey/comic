@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    var images=["barber","brahmin","guard","king","tenali","dog"];
+    //var images=["barber","brahmin","guard","king","tenali","dog"];
     var character=[];
-    var mapCharacter=[];
+    //var mapCharacter=[];
     $.getJSON("StoryChar.json",function(json){
         $.each(json,function(){
             character.push(JSON.stringify(this));
-            mapCharacter.push("man1.png");
-            var subs=this.split(" ");
-            for(var i=0;i<subs.length;i++){
+            //mapCharacter.push("man1.png");
+            //var subs=this.split(" ");
+            /*for(var i=0;i<subs.length;i++){
 
                 subs[i]=subs[i].toLowerCase();
                 //console.log("subs thing "+subs[i]);
@@ -22,12 +22,12 @@ $(document).ready(function(){
                     /*else if(i=(subs.length-1)){
                         mapCharacter.push("man1.png");
                         break;
-                    }*/
+                    }   //
                 }
-            }
+            }  //*/
         });
         console.log(character);
-    console.log(mapCharacter);
+    //console.log(mapCharacter);
     });
     //console.log(character);
     //console.log(mapCharacter);
@@ -64,38 +64,38 @@ $(document).ready(function(){
                     var char2="";
                     var char3="";
                     if(this['character'].length==1){
-                        console.log("index of character "+character.indexOf('"'+this['character'][0]+'"'));
+                        console.log("Name of character "+('"'+this['character'][0]+'"'));
 
-                        var index=parseInt(character.indexOf('"'+this['character'][0]+'"'));
-                        char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
+                        //var index=parseInt(character.indexOf('"'+this['character'][0]+'"'));
+                        //char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
                         char1=this['character'][0]+".png";
-                        console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
+                        //console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
                     if(this['character'].length==2){
-                        console.log("index of character "+character.indexOf('"'+this['character'][0]+'"'));
+                        console.log("Name of character "+('"'+this['character'][0]+'"'));
 
-                        var index1=parseInt(character.indexOf('"'+this['character'][0]+'"'));
-                        var index2=parseInt(character.indexOf('"'+this['character'][1]+'"'));
-                        char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
-                        char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
+                        //var index1=parseInt(character.indexOf('"'+this['character'][0]+'"'));
+                        //var index2=parseInt(character.indexOf('"'+this['character'][1]+'"'));
+                        //char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
+                        //char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
                         char1=this['character'][0]+".png";
                         char2=this['character'][1]+".png";
                         console.log(character);
                         console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
                     if(this['character'].length==3){
-                        console.log("index of character "+character.indexOf('"'+this['character'][0]+'"'));
+                        console.log("Name of character "+character.indexOf('"'+this['character'][0]+'"'));
 
-                        var index1=parseInt(character.indexOf('"'+this['character'][0]+'"'));
-                        var index2=parseInt(character.indexOf('"'+this['character'][1]+'"'));
-                        var index3=parseInt(character.indexOf('"'+this['character'][2]+'"'));
-                        char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
-                        char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
-                        char3=mapCharacter[character.indexOf('"'+this['character'][2]+'"')];
+                        //var index1=parseInt(character.indexOf('"'+this['character'][0]+'"'));
+                        //var index2=parseInt(character.indexOf('"'+this['character'][1]+'"'));
+                        //var index3=parseInt(character.indexOf('"'+this['character'][2]+'"'));
+                        //char1=mapCharacter[character.indexOf('"'+this['character'][0]+'"')];
+                        //char2=mapCharacter[character.indexOf('"'+this['character'][1]+'"')];
+                        //char3=mapCharacter[character.indexOf('"'+this['character'][2]+'"')];
                         char1=this['character'][0]+".png";
                         char2=this['character'][1]+".png";
                         char3=this['character'][2]+".png";
-                        console.log(character);
+                        console.log(char1);
                         //console.log("corres image "+mapCharacter[character.indexOf(this['character'][0])]);
                     }
                     
@@ -113,9 +113,9 @@ $(document).ready(function(){
                                 '<div id="message1 class="message2"><br><br>'+
                                 dia3+'</div></div>'
                                 ;
-                        bg=this['background'];
-                        ch1=this['character1'];
-                        ch2=this['character2'];
+                        //bg=this['background'];
+                        //ch1=this['character1'];
+                        //ch2=this['character2'];
                         $("#main1").before(content+"</div><div class='separator'></div>");
                         //$(".place1").css({"background-image": "url('images/"+ch1+"')"});
                         //$(".place2").css({"background-image": "url('images/"+ch2+"')", "background-size":"contain"});
