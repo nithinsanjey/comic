@@ -4,7 +4,7 @@ $(document).ready(function(){
     //var images=["barber","brahmin","guard","king","tenali","dog"];
     var character=[];
     //var mapCharacter=[];
-    $.getJSON("StoryChar.json",function(json){
+    $.getJSON("StoryChar2.json",function(json){
         $.each(json,function(){
             character.push(JSON.stringify(this));
             //mapCharacter.push("man1.png");
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
    $("#press").click(function(){
         //$.getJSON("content.json",function(json){
-        $.getJSON("Story.json",function(json){
+        $.getJSON("Story2.json",function(json){
             //var content="<div id='main' class='main'>";
             var bg="";
             var ch1="";
